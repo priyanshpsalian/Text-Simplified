@@ -6,7 +6,7 @@ from pathlib import Path,os
 from PIL import Image, ImageDraw, ImageFont #dynamic import
 BASE_DIR = Path(__file__).resolve().parent.parent
 import sys 
-
+import requests,cv2,io
 sys.path.append('/usr/local/lib/python3.9/site-packages')
 import pytesseract	
 from PIL import Image	
@@ -158,7 +158,7 @@ def tasks(request):
 
 
 
-import requests,cv2,io
+
 
 def imgApi(imgPath) :
     img = cv2.imread(imgPath)
