@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'todoList.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'text-simplified.settings')
 
 application = get_asgi_application()
