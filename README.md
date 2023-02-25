@@ -16,7 +16,7 @@ Using all these features at this website for free. The app is implemented on Dja
 To use this app, you need to install Python and Django on your machine. Follow these steps to install the app:
 
 1. Clone the repository using the following command:
-  git clone https://github.com/<username>/<repository-name>.git
+  git clone https://github.com/priyanshpsalian/Text-Simplified.git
 
 2. Install the required dependencies using the following command:
   pip install -r requirements.txt
@@ -24,6 +24,16 @@ To use this app, you need to install Python and Django on your machine. Follow t
 3. Run the app using the following command:
   python manage.py runserver
 
+## Tech Stack
+
+The app is built using the following technologies:
+
+- Django: A high-level Python web framework that encourages rapid development and clean, pragmatic design.
+- Pillow: A Python Imaging Library that adds image processing capabilities to your Python interpreter.
+- pytesseract: A Python wrapper for Google's Tesseract-OCR that allows you to recognize text from images.
+- gTTS: A Python library and CLI tool to interface with Google Translate's text-to-speech API.
+- googletrans: A Python library that uses Google Translate to translate text.
+- moviepy: A Python library for video editing: cuts, concatenations, title insertions, video compositing (a.k.a. non-linear editing), video processing, and creation of custom effects.
 
 ## Usage
 
