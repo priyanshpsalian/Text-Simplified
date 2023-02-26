@@ -174,8 +174,6 @@ def imgApi(imgPath) :
 
     return output
 
-
-
 # imgpath = 'test1.jpg'
 
 # result = imgApi(imgpath)
@@ -191,11 +189,6 @@ def imagec(request):
         ins.save()
         context={'success':True}
         # img = Image.open(img1)
-        
-
-
-
-
        
         # print(img)
         # print("img")
@@ -270,11 +263,6 @@ def gif_to_text(request):
         ins.save()
         context={'success':True}
         # img = Image.open(img1)
-        
-
-
-
-
        
         # print(img)
         # print("img")
@@ -302,11 +290,6 @@ def gif_to_text(request):
         # context={'tasks':output}
         # return render(request,'tasks.html',context)
         
-
-
-
-
-
         allTasks=Imagecon.objects.all()
         # print(allTasks)
         for item in allTasks:
@@ -335,8 +318,6 @@ def gif_to_text(request):
         #     result1 = pytesseract.image_to_string(img1)
         #     print(result1)
 
-
-           
             img1=str(item.taskImage)
             str1="media/"
             img1=str1+img1
@@ -369,26 +350,6 @@ def gif_to_text(request):
         print(output)                
         context={'tasks':output} 
         return render(request,'tasks.html',context)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         global im1
         img1=request.FILES.get('img1')
